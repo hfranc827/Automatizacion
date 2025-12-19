@@ -36,3 +36,12 @@
 
 ```bash
 pip install watchdog
+
+---
+| Problema                            | Solución             |
+| ----------------------------------- | -------------------- |
+| Detectar archivos nuevos            | Watchdog             |
+| Evitar revisar carpetas manualmente | Observer             |
+| Automatizar tareas repetitivas      | Eventos              |
+| Programas que “esperan”             | `while` + `Observer` |
+
