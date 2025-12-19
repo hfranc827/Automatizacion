@@ -45,3 +45,29 @@ pip install watchdog
 | Automatizar tareas repetitivas      | Eventos              |
 | Programas que “esperan”             | `while` + `Observer` |
 
+---
+# 🧪 LECCIÓN 2 — TYPER  
+## Crear herramientas de consola profesionales con Python
+
+En esta lección aprendes a transformar **scripts en Python** en **comandos reales de terminal**, como los que usan las herramientas profesionales.
+
+Aquí pasas de ejecutar archivos manualmente a **usar Python como una CLI (Command Line Interface)**.
+
+---
+
+## 🔴 PROBLEMA (muy real)
+
+> “Tengo scripts en Python, pero cada vez tengo que abrir el código y modificar valores a mano.  
+> Quiero ejecutar acciones directamente desde la terminal.”
+
+Ejemplos de lo que se quiere lograr:
+
+```bash
+python app.py Juan
+Hola Juan, bienvenido a Python 🚀
+
+python app.py entrada/datos.txt procesados/
+>>
+✅ Archivo movido a procesados/
+
+
