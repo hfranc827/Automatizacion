@@ -36,7 +36,7 @@
 
 ```bash
 pip install watchdog
-
+```
 ---
 | Problema                            | Solución             |
 | ----------------------------------- | -------------------- |
@@ -46,8 +46,9 @@ pip install watchdog
 | Programas que “esperan”             | `while` + `Observer` |
 
 ---
-# 🧪 LECCIÓN 2 — TYPER  
+#🧪 LECCIÓN 2 — TYPER  
 ## Crear herramientas de consola profesionales con Python
+
 
 En esta lección aprendes a transformar **scripts en Python** en **comandos reales de terminal**, como los que usan las herramientas profesionales.
 
@@ -67,7 +68,7 @@ python app.py Juan
 Hola Juan, bienvenido a Python 🚀
 
 python app.py entrada/datos.txt procesados/
->>
 ✅ Archivo movido a procesados/
+```
 
 
